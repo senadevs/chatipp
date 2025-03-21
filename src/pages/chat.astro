@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Chati from '../components/Chat';
+---
+
+<Layout title="Public Chat">
+  <div class="container mx-auto px-4">
+    <Chati isPublic client:load />
+  </div>
+</Layout>
