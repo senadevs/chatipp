@@ -1,7 +1,6 @@
 ---
 import Chat from '../components/Chat';
 import Layout from '../layouts/Layout.astro';
-export const prerender = false;
 
 const isAuthenticated = Astro.cookies.get('sb-token')?.value;
 ---
