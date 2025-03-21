@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Label } from '@/components/ui/label';
-import { Switch } from '@/components/ui/switch';
-import { useAuth } from '@/lib/auth';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Input } from '@/components/ui/input';
-import { useToast } from '@/hooks/use-toast';
+import { Button } from './ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
+import { Label } from './ui/label';
+import { Switch } from './ui/switch';
+import { useAuth } from '../lib/auth';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
+import { Input } from './ui/input';
+import { useToast } from '../hooks/use-toast';
 
 export function Settings() {
   const { user } = useAuth();
