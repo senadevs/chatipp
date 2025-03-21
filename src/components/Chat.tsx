@@ -253,8 +253,8 @@ export default function Chat({ isPublic = false }: ChatProps) {
 
     const formData = new FormData();
     formData.append('message', input.trim());
-    formData.append('mode', chatMode);
-    formData.append('model', selectedModel);
+  /*   formData.append('mode', chatMode);
+    formData.append('model', selectedModel); */
     if (isAuthenticated) {
       files.forEach(file => formData.append('files', file));
     }

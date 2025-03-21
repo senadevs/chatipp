@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-
+export const prerender = false;
 export const POST: APIRoute = async ({ request }) => {
   try {
     const formData = await request.formData();
@@ -28,6 +28,7 @@ export const POST: APIRoute = async ({ request }) => {
     });
 
     const data = await response.json();
+    console.log(data);
 
     return new Response(
       JSON.stringify({

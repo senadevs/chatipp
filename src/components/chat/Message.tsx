@@ -1,7 +1,7 @@
-import { cn } from '@/lib/utils';
+import { cn } from '../../lib/utils';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { MessageProps } from './types';
+import  { MessageProps } from './types';
 import { CodeBlock } from './CodeBlock';
 import { MessageAttachment } from './MessageAttachment';
 

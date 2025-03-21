@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ScrollArea } from '@/components/ui/scroll-area';
-import { cn } from '@/lib/utils';
-import { useToast } from '@/hooks/use-toast';
-import { useAuth } from '@/lib/auth';
+import { ScrollArea } from '../ui/scroll-area';
+import { cn } from '../../lib/utils';
+import { useToast } from '../../hooks/use-toast';
+import { useAuth } from '../../lib/auth';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '../ui/button';
 import { Message } from './Message';
 import { ModeSwitch } from './ModeSwitch';
 import { ModelSelector } from './ModelSelector';

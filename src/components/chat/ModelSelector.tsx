@@ -1,6 +1,6 @@
-import { cn } from '@/lib/utils';
-import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card';
-import { ModelSelectorProps } from './types';
+import { cn } from '../../lib/utils';
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '../../components/ui/hover-card';
+import type { ModelSelectorProps } from './types';
 
 const AI_MODELS = [
   { 

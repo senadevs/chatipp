@@ -1,6 +1,6 @@
-import { cn } from '@/lib/utils';
+import { cn } from '../../lib/utils';
 import { Bot, MessageSquare } from 'lucide-react';
-import { ModeSwitchProps } from './types';
+import type { ModeSwitchProps } from './types';
 
 export function ModeSwitch({ mode, onModeChange }: ModeSwitchProps) {
   return (

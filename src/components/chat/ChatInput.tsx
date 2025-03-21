@@ -1,8 +1,8 @@
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { Button } from '../ui/button';
+import { Input } from '../ui/input';
 import { Send, Paperclip } from 'lucide-react';
 import { useRef } from 'react';
-import { ChatInputProps } from './types';
+import type { ChatInputProps } from './types';
 import { FilePreview } from './FilePreview';
 
 export function ChatInput({
