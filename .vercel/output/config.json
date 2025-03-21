@@ -20,7 +20,27 @@
 			"dest": "_render"
 		},
 		{
+			"src": "^/api/auth/?$",
+			"dest": "_render"
+		},
+		{
 			"src": "^/api/chat/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/chat/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/login/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/register/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^/setting/?$",
 			"dest": "_render"
 		},
 		{

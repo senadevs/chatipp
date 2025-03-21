@@ -1,6 +1,5 @@
 export { renderers } from '../../renderers.mjs';
 
-const prerender = false;
 const POST = async ({ request }) => {
   try {
     const formData = await request.formData();
@@ -51,8 +50,7 @@ const POST = async ({ request }) => {
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
-  POST,
-  prerender
+  POST
 }, Symbol.toStringTag, { value: 'Module' }));
 
 const page = () => _page;
